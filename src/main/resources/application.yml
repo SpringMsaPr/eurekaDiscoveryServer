@@ -1,6 +1,9 @@
 spring:
   application:
     name: eureka
+  docker:
+    compose:
+      file: C:\Users\PC\Desktop\spring_msa_pr\eureka\docker-compose.yml
 
 server:
   port: 8761
